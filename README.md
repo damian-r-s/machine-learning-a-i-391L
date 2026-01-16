@@ -10,7 +10,7 @@ This project uses a Conda environment with Python 3.8 and common machine learnin
 conda create -n machinelearning_ai391l python=3.8
 conda activate machinelearning_ai391l
 
-conda install -c conda-forge jupyter scikit-learn pandas matplotlib
+conda install -c conda-forge jupyter scikit-learn pandas matplotlib seaborn
 
 python -m ipykernel install --user --name machinelearning_ai391l --display-name "Python 3.8 (machinelearning_ai391l)"
 
